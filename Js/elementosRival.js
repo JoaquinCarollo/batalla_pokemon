@@ -1,0 +1,34 @@
+const vidaRival = document.getElementById("barraDeVidaUn");
+const pokemonDelRival = document.getElementById("pokemonRival");
+const pokebolaRivalUno = document.getElementById("pokebolaRivalUno");
+const pokebolaRivalDos = document.getElementById("pokebolaRivalDos");
+const pokebolaRivalTres = document.getElementById("pokebolaRivalTres");
+const pokemonesDelRival = document.getElementById("pokemonRival");
+const mewtwo = document.createElement("img");
+mewtwo.src = "Imagenes y gif/mewtwo.gif";
+mewtwo.className = "mewtwo";
+const pidgeot = document.createElement("img");
+pidgeot.src = "Imagenes y gif/pidgeot.gif";
+pidgeot.className = "pidgeot";
+const eevee = document.createElement("img");
+eevee.src = "Imagenes y gif/Eevee.webp";
+eevee.className = "eevee";
+pokemonesDelRival.appendChild(eevee);
+//<img src="Imagenes y gif/voltorb.gif" alt="" class="voltorb"></img>
+//<img src="Imagenes y gif/dragonite.gif" alt="" class="dragonite">
+const voltorb = document.createElement("img");
+voltorb.src = "Imagenes y gif/voltorb.gif";
+voltorb.className = "voltorb";
+const dragonite = document.createElement("img");
+dragonite.src = "Imagenes y gif/dragonite.gif";
+dragonite.className = "dragonite"; 
+let vidaEevee = estadisticas[1].ps;
+let vidaPidgeot = estadisticas[3].ps;
+let vidaMewtwo = estadisticas[4].ps;
+let vidaVoltorb = estadisticas[6].ps;
+let vidaDragonite = estadisticas[7].ps;
+const barraRival = document.createElement("p");
+barraRival.innerText = vidaEevee + "/55";
+barraRival.className = "barraRival";
+vidaRival.appendChild(barraRival);
+let cantidadDePokemonesRival = 4;
